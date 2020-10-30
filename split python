@@ -1,0 +1,6 @@
+addr=input("enter email address")
+name,domain=addr.split('@')
+print("user name",name)
+print("Domain name",domain)
+domain_n,com=domain.split('.')
+print("server name",domain_n)
